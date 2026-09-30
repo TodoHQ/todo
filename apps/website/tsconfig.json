@@ -2,6 +2,10 @@
     "compilerOptions": {
         "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
         "jsx": "react-jsx",
+
+        // "moduleResolution": "bundler",
+        // "strict": true,
+        // "skipLibCheck": true,
         "noEmit": true
     },
     "include": ["src"]

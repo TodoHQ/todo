@@ -1,6 +1,7 @@
 {
     "workspaces": [
-        "apps/website"
+        "apps/website",
+        "packages/ui"
     ],
     "devDependencies": {
         "@types/node": "^26.6.3",
