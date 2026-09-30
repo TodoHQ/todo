@@ -8,7 +8,8 @@
     },
     "dependencies": {
         "express": "^5.2.1",
-        "zod": "^4.6.5"
+        "zod": "^4.6.5",
+        "@todo/db": "*"
     },
     "devDependencies": {
         "@types/express": "^5.0.6"

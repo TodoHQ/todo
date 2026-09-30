@@ -6,6 +6,8 @@ export const ProcessEnvSchema = z.object({
     NAME: z.string().trim().default(packageJson.name),
     NODE_ENV: z.string().trim().default('development'),
     PORT: z.number().default(3000),
+
+    DB_URL: z.string().trim().default('mongodb://localhost:27017/todo'),
 });
 
 export const env = ProcessEnvSchema.parse(process.env);
